@@ -1,0 +1,405 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #000;
+}
+
+
+
+div{
+    /* border: 2px solid; */
+    color: #fff;
+    width: 30%;
+    position: absolute;
+    left: 1000px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+}
+
+
+#box1{
+    /* border: 2px solid #000; */
+    width: 25%;
+    height: 160px;
+    background-color: #121212;
+    position: absolute;
+    left: 7px;
+    bottom: 540px;
+}
+
+#icon{
+    fill: #fff;
+    width: 23%;
+    background-color:#121212;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    
+} 
+
+#home{
+    fill: #fff;
+    width:7% ;
+    background-color:#121212 ;
+    position: absolute;
+    left: 25px;
+    top:65px ;
+    
+}
+
+#home1{
+    width:7% ;
+    position: absolute;
+    left: 65px;
+    top:68px ;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #121212;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+}
+
+#search{
+    width: 7%;
+    fill: #fff;
+    background-color: #121212;
+    position: absolute;
+    top:110px;
+    left: 25px;
+}
+
+#search1{
+    width:7% ;
+    position: absolute;
+    left: 65px;
+    top:113px ;
+    color:#b3b3b3;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #121212;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+
+}
+
+#search1:hover{
+    color: #fff;
+}
+
+#search:hover{
+    color: #fff;
+}
+
+#box2{
+    /* border: 2px solid #000; */
+    width: 25%;
+    height: 400px;
+    background-color: #121212;
+    position: absolute;
+    left: 7px;
+    bottom: 540px;
+}
+
+#side1{
+    /* border: 2px solid; */
+    width: 74%;
+    height: 630px;
+    position: absolute;
+    left: 385px;
+    bottom: 60px;
+    background-color: #121212;
+}
+
+#contents{
+    position: absolute;
+    top: 20px;
+    background-color: #121212;
+    fill: #fff;
+    font-size: 17px;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+}
+
+#Premium{
+    position: absolute;
+    left: -30px;
+    background-color: #121212;
+    color:#b3b3b3;
+    top: 20px;
+    letter-spacing: 1.60px;
+    line-height: 18px;
+}
+
+
+#Support{
+    position: absolute;
+    left: 60px;
+    background-color: #121212;
+    color:#b3b3b3;
+    top: 20px;
+    letter-spacing: 1.60px;
+    line-height: 18px;
+}
+
+#Download{
+    position: absolute;
+    left: 145px;
+    background-color: #121212;
+    color:#b3b3b3;
+    top: 20px;
+    letter-spacing: 1.60px;
+    line-height: 18px;
+}
+
+#or{
+    position: absolute;
+    left: 250px;
+    background-color: #121212;
+    color:#b3b3b3;
+    top: 10px;
+    font-size: 25px;
+}
+
+#signup{
+    position: absolute;
+    left: 270px;
+    background-color: #121212;
+    color:#b3b3b3;
+    top: 20px;
+
+}
+
+#login{
+    position: absolute;
+    left: 350px;
+    background-color:#fff;
+    color:#000;
+    top: 5px;
+    width: 110px;
+    height: 50px;
+    border-radius: 60px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+
+
+#left{
+    color:#b3b3b3;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgba(0,0,0,.7);
+    height: 0%;
+    width: 0%;
+    position: absolute;
+    left:50px;
+    top: 20px;
+    cursor: pointer;
+
+}
+
+#right{
+    color:#b3b3b3;
+    font-size: 30px;
+    font-weight: 900;
+    background-color:rgba(0,0,0,.7);
+    height: 0%;
+    width: 0%;
+    position: absolute;
+    left:100px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#sidebox{
+    border: 2px solid red;
+    height: 450px;
+    width: 25%;
+    position: absolute;
+    top: 180px;
+    left: 7px;
+    background-color: #121212;
+}
+
+#lines{
+    color:#fff;
+    background-color:#121212;
+    width: 8%;
+    fill: #b3b3b3;
+    position: absolute;
+    left: 35px;
+    top: 25px;
+}
+
+
+
+#library{
+    color: #b3b3b3;
+    background-color: #121212;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    cursor: pointer;
+}
+
+#library:hover{
+    color: #fff;
+}
+
+#add{
+    fill: #fff;
+    width: 4.5%;
+    background-color: #121212;
+    position: absolute;
+    left: 320px;
+    top: 30px;
+    color: #b3b3b3;
+}
+
+
+aside{
+    border: 2px solid yellow;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    overflow-y: scroll ;
+    
+   
+   
+}
+.card-body{
+    height: 400px;
+    width: 500%;
+    position: absolute;
+    top: 20px;
+}
+
+
+.card-title{
+   font-size: 16px;
+}
+
+
+/* #bigbox{
+    background-color: #121212;
+    border: 2px solid black;
+    width: 73.5%;
+    height: 550px;
+    position: absolute;
+    right: 8px;
+    bottom: 75px;
+} */
+
+
+#heading{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 100px;
+    right: 930px;
+    background-color: #121212;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+
+}
+
+#heading:hover{
+    text-decoration: underline;
+}
+
+#small{
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    background-color: #121212;
+    color: #fff;
+
+}
+
+#small:hover{
+    text-decoration: underline;
+}
+
+.card-group{
+    border: 2px solid red;
+    width: 50%;
+    height: 200px;
+
+}
+
+.card-img-top{
+    border: 2px solid red;
+    width: 20%;
+    height: 180px;
+}
+
+.card-body{
+    border: 2px solid yellow;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    border: 2px solid yellow;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 630px;
+}
